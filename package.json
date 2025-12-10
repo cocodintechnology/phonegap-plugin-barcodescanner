@@ -1,9 +1,9 @@
 {
   "name": "@cocodintech/phonegap-plugin-barcodescanner",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "BarcodeScanner plugin is a fork of the original phonegap-plugin-barcodescanner, adapted for cordova-android 12.0.0. It allows scanning various barcode types using the device's camera and extracting encoded metadata for in-app processing.",
   "cordova": {
-    "id": "phonegap-plugin-barcodescanner",
+    "id": "@cocodintech/phonegap-plugin-barcodescanner",
     "platforms": [
       "ios",
       "android",
@@ -25,7 +25,7 @@
     "cordova:plugin"
   ],
   "engines": {
-    "cordova-android": ">=10.0.0 <=12.0.0"
+    "cordova-android": ">=10.0.0"
   },
   "author": "Adobe PhoneGap Team",
   "license": "MIT",
